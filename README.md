@@ -13,9 +13,8 @@ ranking, a few without escaping `%`. Every new site would have written a 26th.
 
 ## Where it lives, and how a site adopts it
 
-Its home is `bitbaum/searchkit`, created from this folder by bitbaum/fleet's
-`package-repos` workflow (declared in `registers/package-repos.json`). Until
-that repository exists the source is `bitbaum/orangecat` `packages/searchkit`.
+This repo, created by bitbaum/fleet's `package-repos` workflow from
+`bitbaum/orangecat` `packages/searchkit` (its history before 0.2.2 is there).
 A site installs a release tag, which Dependabot moves forward on its own:
 
 ```jsonc
