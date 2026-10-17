@@ -48,5 +48,10 @@
   "devDependencies": {
     "typescript": "^6.0.3",
     "@types/react": "^19.3.0"
+  },
+  "author": "Cato",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
