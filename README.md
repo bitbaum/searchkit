@@ -15,11 +15,11 @@ ranking, a few without escaping `%`. Every new site would have written a 26th.
 
 This repo, created by bitbaum/fleet's `package-repos` workflow from
 `bitbaum/orangecat` `packages/searchkit` (its history before 0.2.2 is there).
-A site installs a release tag, which Dependabot moves forward on its own:
+A site installs a release from npm, which Dependabot moves forward on its own:
 
 ```jsonc
 // package.json
-"@bitbaum/searchkit": "github:bitbaum/searchkit#v0.2.2"
+"@bitbaum/searchkit": "^0.2.2"
 ```
 
 It ships compiled JavaScript in `dist/`, committed beside the source the way
